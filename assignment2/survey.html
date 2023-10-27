@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey-Leigh Adams</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript" src="js/process_form.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1><strong>Are You a Man or Muppet?</strong></h1>
+    </header>
+    <div id="nav">
+      <nav>
+        <a href="#"><p>Personal Info</p></a>
+        <a href="#"><p>Muppet Quiz</p></a>
+        <a href="#"><p>Results</p></a>
+      </nav>
+    </div>
+    <div class="grid formBody">
+      <div id="form1" class="grid-item form1">
+       <form action="process.php" method="post" name="manOrMup">
+        <fieldset>  
+          <legend>More About You!</legend>
+        <br>
+       <table>
+          <tr id = "row1">
+            <td><label for="fName">First Name:</label></td>
+            <td><input type="text" name="fName" id="fName" value="" /></td>
+            <td> <div id="space1"><p id="extra1"></p></div></td>
+          </tr>
+          <tr id ="row2">
+            <td><label for="lName">Last Name:</label></td>
+            <td><input type="text" name="lName" id="lName" value="" /></td>
+            <td> <div id="space2"><p id="extra2"></p></div></td>
+          </tr>
+          <tr id = "row3">
+            <td><label for="pNumber">Phone Number:</label></td>
+            <td><input type="text" name="pNumber" id="pNumber" value="" /></td>
+            <td> <div id="space3"><p id="extra3"></p></div></td>
+          </tr>
+          <tr id = "row4">
+            <td><label for="eMail">Email:</label></td>
+            <td><input type="text" name="eMail" id="eMail" value="" /></td>
+            <td> <div id="space4"><p id="extra4"></p></div></td>
+          </tr>
+          <tr id = "row5">
+            <td><label for="wSite">Website:</label></td>
+            <td><input type="text" name="wSite" id="wSite" value="" /></td>
+            <td> <div id="space5"><p id="extra5"></p></div></td>
+          </tr>
+        </table>
+          <input type="submit" name="submit" value="submit" />
+        </fieldset>
+      <br>
+      </div>
+      <div class="grid-item form2">
+          
+            <fieldset>
+              <legend>Are You a Man or Muppet?</legend>
+              <br>
+          <table>
+        <th>Question 1: Which do you prioritize, work or relationships? </th>
+        <tr>
+          <td><input type="radio" name="work"value="">
+            <label for="work">Work</label>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="work" value="">
+            <label for="work">Relationships</label>
+          </td>
+        </tr>
+        <th>Question 2: Would you be willing to give up everything to get your dream job?</th>
+        <tr>
+          <td><input type="radio" name="yes" value=""><label for="yes">Who needs a life anyways?</label>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="yes" value=""><label for="no">I've got too much to lose!</label>
+          </td>
+        </tr>
+        <th>Question 3: Who's your favorite Muppet?</th>
+        <tr>
+          <td><input type="radio" name="mup" value=""><label for="gonzo">Gonzo</label>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="mup" value=""><label for="kermit">Kermit</label>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="mup" value=""><label for="mPiggy">Miss Piggy</label>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="mup" value=""><label for="animal">Animal</label>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="mup" value=""><label for="rRat">Rizzo the Rat</label>
+          </td>
+        </tr>
+        </table>
+        
+        <input type="submit" name="submit" value="submit">
+      </fieldset>
+        </form>
+      
+      </div>
+    </div>
+    <div id="ad"></div>
+    <footer><i>Created for DIG3716c by Leigh Adams</i></footer>
+  </body>
+</html>

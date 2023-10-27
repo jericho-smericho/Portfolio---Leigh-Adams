@@ -1,0 +1,55 @@
+body {
+  background-color: #1C52AC;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: ivory;
+  
+}
+
+h1 {
+  text-align: center;
+  padding: 3px;
+  margin: 40px;
+  
+}
+
+#nav {
+  color: #1C52AC;
+  background-color: beige;
+  border: double beige 2px;
+  border-radius: 8px;
+  padding: 15px;
+  float: left;
+  margin: 5px;
+}
+
+/*#nav:hover {
+  color: aqua;
+}
+
+#nav:click {
+  color: lawngreen;
+}*/
+
+.formBody {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: beige;
+  text-align: left;
+  color: #1C52AC;
+  
+  border: inset #1C52AC 1px;
+  border-radius: 8px;
+
+  padding: 0px;
+  margin: auto 33% auto 33%;
+}
+.formBody .form1 {
+  grid-row: 1;
+  margin: 10px;
+  padding: 5px;
+}
+.formBody .form2 {
+  grid-row: 2;
+  margin: 10px;
+  padding: 5px;
+}/*# sourceMappingURL=styles.css.map */
