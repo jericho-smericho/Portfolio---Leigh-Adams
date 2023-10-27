@@ -1,0 +1,53 @@
+contrast, color, size, shape, repetition, alignment, proximity
+
+wireframing => low fidelity rep of dig interface
+figma + adobexd
+do:
+simple colorscheme
+SIMPLE
+comprehensive + flexible
+research
+
+info architecture
+design guide => framework of principles, rules for design
+maze design system
+
+weeb portfolio => digital showcase of your work
+not mandatory but it helps w professionality foot in door
+
+FIGMA
+navigation bar => MUST BE EASY TO NAVIGATE
+
+hero statement => first thing seen, 5 sec frame, promotion, everything you need to know
+not complicated
+
+about me => summary on resume
+no "aspiring" you ARE that
+describe technical + design skills AND soft skills
+personal interets ok, better shown via design
+
+skills section => highlight proficiency in var 
+hierarchy of skills: programming lang, frameworks, design skills, tools
+only include necessary for career path
+
+Experience => overview of prof journey
+
+Projects => showcacse of signif. projs. 
+pictures
+description
+techstack + links (Github/Demo)
+ONLY 3 PROJS ON FRONT PAGE
+necessary details, no date completed
+
+Contact Section => how to connect
+
+Develop =>
+HTML/CSS/JS
+Front end framework (react, nextjx, jx)
+content management system (wordpress)
+form
+linkedin + Github
+social media (MUST BE APPROPRIATE)
+link to resume
+
+Developing the site
