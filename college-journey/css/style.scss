@@ -1,0 +1,243 @@
+@import "mixin.scss";
+
+body {
+    background-image: url(../img/bg1.png);
+    color: aqua;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    #intro {
+        outline: solid 5px goldenrod;
+        margin: 40px;
+        padding: 10px;
+        background-color: beige;
+        //opacity: 30%;
+        font-size: 20px;
+    }
+
+    #words {
+        color: navy;
+        margin: 2px;
+        padding: 1px;
+    }
+
+
+
+    #pictures {
+
+        margin: 3%;
+        padding: 20px;
+    }
+}
+
+#img1 {
+    @include fix-Portrait(left);
+}
+
+#img2 {
+    @include fix-Portrait(left);
+}
+
+#img3 {
+    @include fix-Portrait(left);
+}
+
+#img4 {
+    @include fix-Portrait(left);
+}
+
+#img5 {
+    @include fix-Portrait(right);
+}
+
+#img6 {
+    @include fix-Portrait(right);
+}
+
+#img7 {
+    @include fix-Portrait(right);
+}
+
+
+@media screen and (min-width: 900px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        //background-repeat: repeat-x, repeat;
+        margin: 10px;
+        padding: 5px;
+
+        .era1 {
+            @include grid-areah (1, 1/span 2);
+            font-size: 18px;
+            text-align: left;
+            background-image: url(../img/bg2.png);
+
+            h3 {
+                font-size: 32px;
+                text-align: center;
+            }
+        }
+
+        //#000b44
+        .era2 {
+            @include grid-areah(2, 1/span 2);
+            text-align: right;
+            font-size: 18px;
+            background-image: linear-gradient(#d200a2, #f00038, #ff5b00, #ff8500);
+
+
+            h3 {
+                font-size: 32px;
+                text-align: right;
+
+            }
+        }
+
+        .era3 {
+            @include grid-areah(3, 1/span 2);
+            color: rgb(2, 136, 136);
+            font-size: 18px;
+            text-align: left;
+            background-image: linear-gradient(#ff8500, #ffc800, #f8f9f0);
+
+            h3 {
+                font-size: 32px;
+                text-align: left;
+            }
+
+            #img8 {
+                display: block;
+                float: center;
+                margin: 20px 20px 20px 190px;
+                padding: 5px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: auto;
+
+        //background-repeat: repeat-x, repeat;
+        margin: 5px;
+        padding: 2px;
+
+        .era1 {
+            @include grid-areah (1, 1/span 2);
+            font-size: 11px;
+            text-align: left;
+            background-image: url(../img/bg2.png);
+
+            h3 {
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+
+        //#000b44
+        .era2 {
+            @include grid-areah(2, 1/span 2);
+            text-align: right;
+            font-size: 11px;
+            background-image: linear-gradient(#8d02c3, #d200a2, #f00038, #ff5b00, #ff8500);
+
+
+            h3 {
+                font-size: 20px;
+                text-align: right;
+
+            }
+        }
+
+        .era3 {
+            @include grid-areah(3, 1/span 2);
+            color: rgb(2, 136, 136);
+            font-size: 11px;
+            text-align: left;
+            background-image: linear-gradient(#ff8500, #ffc800, #f8f9f0);
+
+            h3 {
+                font-size: 20px;
+                text-align: left;
+            }
+
+            #img8 {
+                //@include fix-Portrait(center);
+                width: 70%;
+                height: auto;
+                display: block;
+                float: center;
+                margin: 30px; //10px 10px 10px 180px;
+                padding: 15px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: auto;
+
+        //background-repeat: repeat-x, repeat;
+        margin: 10px;
+        padding: 5px;
+
+        .era1 {
+            @include grid-areah (1, 1/span 2);
+            font-size: 12px;
+            text-align: left;
+            background-image: url(../img/bg2.png);
+
+            h3 {
+                font-size: 22px;
+                text-align: center;
+            }
+        }
+
+        //#000b44
+        .era2 {
+            @include grid-areah(2, 1/span 2);
+            text-align: right;
+            font-size: 12px;
+            background-image: linear-gradient(#d200a2, #f00038, #ff5b00, #ff8500);
+
+
+            h3 {
+                font-size: 22px;
+                text-align: right;
+
+            }
+        }
+
+        .era3 {
+            @include grid-areah(3, 1/span 2);
+            color: rgb(2, 136, 136);
+            font-size: 12px;
+            text-align: left;
+            background-image: linear-gradient(#ff8500, #ffc800, #f8f9f0);
+
+            h3 {
+                font-size: 22px;
+                text-align: left;
+            }
+
+            #img8 {
+                //@include fix-Portrait(center);
+                width: 70%;
+                height: auto;
+                display: block;
+                float: center;
+                margin: 30px; //10px 10px 10px 180px;
+                padding: 15px;
+            }
+        }
+    }
+
+}

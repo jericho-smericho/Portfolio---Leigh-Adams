@@ -1,0 +1,14 @@
+@mixin fix-Portrait($whichDirection) {
+    float: $whichDirection;
+    width: 20%;
+    height: auto;
+    outline: inset gold 2px;
+    margin: 15px;
+    padding: 1px;
+}
+
+@mixin grid-areah($horizArea, $vertiArea) {
+    grid-row: $horizArea;
+    grid-column: $vertiArea;
+
+}
