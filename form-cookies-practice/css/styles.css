@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(14, 209, 105);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+/*#formConf {
+    background-color: chartreuse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}*/
+h1 {
+    color:rgb(254, 241, 223);
+    font-weight: lighter;
+    text-align: center;
+}
+.formWhole {
+    background-color: rgb(255, 111, 92);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+    margin-right: 380px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.fs1 {
+    grid-row: 1;
+    background-color: rgb(254, 241, 223);
+    color:rgb(0, 25, 0);
+    margin: 10px;
+    padding: 15px;
+}
+.fs2 {
+    grid-row: 2;
+    background-color: rgb(254, 241, 223);
+    color:rgb(0, 25, 0);
+    margin: 10px;
+    padding: 15px;
+}
+.pv {
+    background-color: rgb(255, 111, 92);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    /*background-color:rgb(249, 161, 189);*/
+    color: azure;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 490px;
+    margin-right: 590px;
+    padding: 50px;
+
+}
+li {
+    list-style: none;
+}
+a {
+    align-content: center;
+    margin-left: 650px;
+    margin-right: 650px;
+    text-decoration: none;
+}
+a:click {
+    color: rgb(255, 111, 92);
+}
+a:hover {
+    color:rgb(255, 111, 92);
+}
+a:active {
+    color: rgb(255, 111, 92);
+}
